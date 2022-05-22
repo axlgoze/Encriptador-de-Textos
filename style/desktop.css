@@ -1,0 +1,91 @@
+/* desktop */
+@media (min-width: 1020px) {
+    #test{
+        color: #5346e3;
+    }
+
+    .encrypting{
+        width: 58%;
+        order: 1;
+        /* border: solid red; */
+        /* height: 100px; */
+    }
+
+    .encrypting-input--notice{
+        /* border: solid palegreen; */
+    }
+    
+    .main-input{
+        width: 100%;
+        height: 100%;
+    }
+
+    .scrollbar{
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+        /* border: solid red; */
+        /* border: 1px solid #5346e3; */
+        /* background-color: aqua; */
+        padding: 8px;
+    }
+    
+    .picture{
+        width: 40%;
+        /* height: auto; */
+        order: 2;
+        /* border: solid springgreen; */
+    }
+    
+    .picture-card{
+        margin-top: 10px;
+        /* margin-bottom: 100px; */
+    }
+    
+    .developer{
+        margin-top: 20px;
+    }
+    
+    .buttons{
+        width: 60%;
+        order: 3;
+        height: 60px;
+        margin-left: 50px;
+        /* border: solid firebrick; */
+        margin-top: 15px;
+    }
+
+    .developer{
+        width: 100%;
+        order: 4;
+    }
+
+    .picture-card{
+        /* border: solid rebeccapurple; */
+        /* height: 100%; */
+        height: 599px;
+        position: relative;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    }
+
+    .row{
+        margin-left: 50px;
+    }
+
+    .picture-card img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .picture-card--title{
+        margin-top: 35px;
+    }
+
+    .card-content h2{
+        margin-top: 60px;
+    }
+
+    .picture-card--title p{
+        margin-top: 12px;
+    }
+}

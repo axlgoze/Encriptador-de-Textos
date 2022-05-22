@@ -1,0 +1,58 @@
+/* tablet */
+@media (min-width: 600px){
+    #test{
+        color: #5346e3;
+    }
+
+    .encrypting{
+        width: 100%;
+        order: 1;
+    }
+    .picture{
+        width: 100%;
+        order: 3;
+        /* height: 90%; */
+    }
+
+    .buttons{
+        width: 100%;
+        order: 2;
+        display: flex;
+        height: 95%;
+    }
+
+    .button-encrypt{
+        width: 50%;
+        height: 70%;
+    }
+
+    .row{
+        margin: 0 auto;
+    }
+
+    .button-decrypt{
+        width: 50%;
+        height: 70%;
+        margin: 0 auto;
+    }
+
+    .developer{
+        width: 100%;
+        order: 4;
+    }
+
+    /* .button-style{
+        
+    } */
+
+    .main-input{
+        padding: 0 auto;
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    .picture-card img{
+        width: 0%;
+        height: 0px;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style/main_style.css">
+    <link rel="stylesheet" href="style/tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="style/desktop.css" media="screen and (min-width: 800px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main-container">
+        <span class="main-logo"></span>
+        
+        <div class="encrypting">
+            <div class="encrypting-input" >
+                <div class="scrollbar">
+                    <input type="text" placeholder="Ingrese el texto aqui" class="main-input" minlength="8" maxlength="600" required>
+                </div>
+            </div>
+            <div class="row">
+                <span class="warning"></span><p class="encrypting-input--notice">Solo letras minúsculas y sin acentos</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <!-- <p id="test">buttons area</p> -->
+            <div class="button-encrypt">
+                <!-- <p id="test">encrypt</p> -->
+                <button class="button-style" id="doEncripta" onclick="encriptacion()">Encriptar</button>
+            </div>
+            <div class="button-decrypt">
+                <!-- <p id="test">Decrypt</p> -->
+                <button class="button-style--two" onclick="de_encriptacion()">Desencriptar</button>
+            </div>
+        </div>
+        
+        <div class="picture">
+            <!-- <p id="test">picture</p> -->
+            <!-- <figure>
+                <img src="" alt="">
+            </figure> -->
+            <div class="picture-card">
+                <div class="card-content">
+                    <picture>
+                        <source media="(min-width: 1280)" srcset="./assets/personG.png">
+                        <!-- <source media="(max-width: 800)" srcset="./assets/personP.png"> -->
+                        <img src="./assets/personMG.png" alt="person looking for diamonds">
+                    </picture>
+                    <h2 class="picture-card--title" id="card-title">Ningún mensaje fue encontrado</h2>
+                    <div class="card-content--result">
+                        <p class="picture-card--body" id="card-body">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="developer">
+            <footer>
+                <p id="test-dev">Develop by</p>
+                <p class="dev-name">Reyes Axel</p>
+                <div class="dev-socialmedia">
+                    <a href="https://github.com/axlgoze">Github</a>
+                    <a href="https://www.instagram.com/axlze/">Instagram</a>
+                    <a href="https://www.linkedin.com/in/axl-reyes-b6914b219/">Linkedin</a>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
