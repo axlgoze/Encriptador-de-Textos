@@ -24,7 +24,7 @@ Las "llaves" de encriptación que utilizaremos son las siguientes:
 
 `PARA PROBAR EL ENCRIPTADOR DA CLICK EN EL SIGUIENTE ENLACE:`
 
-[ENCRIPTADOR](https://axlgoze.github.io/my_launchx_blog/)
+[ENCRIPTADOR](https://axlgoze.github.io/Encriptador-de-Textos/)
 
 funcionalidades por agregar:
 
@@ -37,6 +37,8 @@ BUGS que arreglar:
 1. Ficha donde se muestra el texto encriptado/desencriptado se queda corto para cadenas muy largar. Hay que encontrar la manera de que se adapte segun el tamaño del texto resultado.
 
 2. Responsive design de secciones, al cambiar a desktop algunas quedan muy separadas. Comenzar por esta parte para despues adapatar la ficha donde se muestra el resultado.
+
+3. Probar otros elementos HTML para el input: TEXT no permite crecer en otras pantallas como desktop.
 
 
 ### No olvides visitar mi blog personal:
