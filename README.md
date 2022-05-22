@@ -40,6 +40,8 @@ BUGS que arreglar:
 
 3. Probar otros elementos HTML para el input: TEXT no permite crecer en otras pantallas como desktop.
 
+4. Delimitar un max-width para version desktop :1200px:
+
 
 ### No olvides visitar mi blog personal:
 
